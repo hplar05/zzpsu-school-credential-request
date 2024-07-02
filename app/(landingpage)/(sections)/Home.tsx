@@ -9,7 +9,7 @@ export const Home = () => {
   return (
     <section id="home" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
-        <div className="grid max-md:text-center gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+        <div className="grid max-lg:text-center gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl xl:text-5xl/none">
@@ -26,12 +26,12 @@ export const Home = () => {
                   repeat={Infinity}
                 />
               </h1>
-              <p className="max-w-[600px] text-muted-foreground md:text-xl">
+              <p className="max-w-[600px] max-lg:max-w-full text-muted-foreground md:text-xl ">
                 Earn your school credential with our streamlined process. Get
                 started today and take the first step towards a brighter future.
               </p>
             </div>
-            <div className="flex flex-col max-md:items-center max-md:justify-center gap-2 min-[400px]:flex-row">
+            <div className="flex flex-col max-lg:items-center max-lg:justify-center gap-2 min-[400px]:flex-row">
               <Link
                 href="/dashboard"
                 className="inline-flex h-10 items-center justify-center rounded-md bg-[#800000] px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#990404] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
@@ -46,7 +46,7 @@ export const Home = () => {
             width="550"
             height="550"
             alt="Hero"
-            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square max-md:hidden"
+            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square max-lg:hidden"
           />
         </div>
       </div>
