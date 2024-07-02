@@ -5,13 +5,13 @@ import React, { SVGProps } from "react";
 
 export const Navbar = () => {
   return (
-    <header className="px-4 lg:px-6 h-14 flex items-center stickyflex item-center justify-between dark:shadow-none p-4 sticky top-0 bg-[#800000] scroll-smooth ">
+    <header className="px-4 lg:px-6 h-20 flex items-center stickyflex item-center justify-between dark:shadow-none p-4 sticky top-0 bg-[#800000] scroll-smooth ">
       <Link
         href="#"
         className="flex items-center justify-center"
         prefetch={false}
       >
-        <Image src={Logo} width="35" height="40" alt="Hero" className="" />
+        <Image src={Logo} width="50" height="50" alt="Hero" className="" />
         <span className="sr-only">School Credentials Request</span>
       </Link>
       <nav className="ml-auto flex gap-3 text-gray-200 max-md:hidden">
