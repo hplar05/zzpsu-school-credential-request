@@ -1,4 +1,5 @@
 import { UserNavbar } from "@/app/dashboard/_components/navBar";
+import { Footer } from "@/components/Footer";
 
 export const metadata = {
   title: "Next.js",
@@ -15,6 +16,7 @@ export default function RootLayout({
       <body>
         <UserNavbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
