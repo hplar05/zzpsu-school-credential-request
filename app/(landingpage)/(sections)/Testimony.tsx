@@ -35,9 +35,9 @@ export const Testimony = () => {
                 </div>
               </div>
               <p className="text-muted-foreground">
-                "Earning my school credential with this program was a\n
+                Earning my school credential with this program was a\n
                 game-changer for my career. The process was straightforward\n
-                and the support I received was invaluable."
+                and the support I received was invaluable.
               </p>
             </div>
           </div>
@@ -56,9 +56,9 @@ export const Testimony = () => {
                 </div>
               </div>
               <p className="text-muted-foreground">
-                "Earning my school credential with this program was a\n
+                Earning my school credential with this program was a\n
                 game-changer for my career. The process was straightforward\n
-                and the support I received was invaluable."
+                and the support I received was invaluable.
               </p>
             </div>
           </div>

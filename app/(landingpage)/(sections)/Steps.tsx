@@ -40,7 +40,7 @@ export const Steps = () => {
                 <div className="grid gap-1">
                   <h3 className="text-xl font-bold">3. Receive Credential</h3>
                   <p className="text-muted-foreground">
-                    Once approved, you'll receive your official school
+                    Once approved, youll receive your official school
                     credential.
                   </p>
                 </div>
