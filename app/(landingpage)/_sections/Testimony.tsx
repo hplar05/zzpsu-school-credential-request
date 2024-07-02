@@ -28,7 +28,7 @@ export const Testimony = () => {
                   <AvatarFallback>JS</AvatarFallback>
                 </Avatar>
                 <div>
-                  <h4 className="text-lg font-medium">Jane Smith</h4>
+                  <h4 className="text-lg font-medium">Mikaella Smith</h4>
                   <p className="text-sm text-muted-foreground">
                     Credential Recipient
                   </p>
