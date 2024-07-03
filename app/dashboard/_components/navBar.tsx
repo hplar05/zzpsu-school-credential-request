@@ -79,11 +79,11 @@ export const UserNavbar = () => {
       </div>
       <div className="mr-[1rem] max-md:mr-0">
         <ClerkLoading>
-          <div className="inline-block h-6 w-6 animate-spin rounded-full border-4 border-solid border-current border-e-transparent align-[-0.125em] text-surface motion-reduce:animate-[spin_1.5s_linear_infinite] text-white"></div>
+          <div className="inline-block h-8 w-8 mt-1 animate-spin rounded-full border-4 border-solid border-current border-e-transparent align-[-0.125em] text-surface motion-reduce:animate-[spin_1.5s_linear_infinite] text-black"></div>
         </ClerkLoading>
         <ClerkLoaded>
           <SignedIn>
-            <div className="flex justify-center gap-3">
+            <div className="flex justify-center gap-1">
               <div className="cursor-pointer mt-1">
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
