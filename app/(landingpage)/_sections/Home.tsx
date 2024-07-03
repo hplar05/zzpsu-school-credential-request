@@ -7,19 +7,17 @@ import { TypeAnimation } from "react-type-animation";
 
 export const Home = () => {
   return (
-    <section id="home" className="w-full py-12 md:py-24 lg:py-32">
+    <section
+      id="home"
+      className="w-full h-[80vh] max-md:h-[65vh] flex justify-center items-center"
+    >
       <div className="container px-4 md:px-6">
         <div className="grid max-lg:text-center gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl xl:text-5xl/none">
                 <TypeAnimation
-                  sequence={[
-                    "Zamboanga City ZPPSU",
-                    3000,
-                    "School Credentials Request",
-                    3000,
-                  ]}
+                  sequence={["ZPPSU Credentials", 500, "Request Automate", 500]}
                   wrapper="span"
                   speed={50}
                   className="block"
@@ -42,10 +40,8 @@ export const Home = () => {
           </div>
           <Image
             src={Logo}
-            width="550"
-            height="550"
             alt="Hero"
-            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square max-lg:hidden"
+            className="mx-auto overflow-hidden sm:w-full max-lg:hidden h-[430px] w-[600px]"
           />
         </div>
       </div>
