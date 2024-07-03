@@ -1,5 +1,6 @@
 import { UserNavbar } from "@/app/dashboard/_components/navBar";
 import { Footer } from "@/components/Footer";
+import { UserSidebar } from "./_components/sideBar";
 
 export const metadata = {
   title: "ZZPSU Requests Credentials",
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <UserNavbar />
+        <UserSidebar />
         {children}
         <Footer />
       </body>
