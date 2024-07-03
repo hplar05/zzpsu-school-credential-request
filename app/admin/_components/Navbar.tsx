@@ -11,6 +11,7 @@ import { Input } from "@/components/ui/input";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Link from "next/link";
 import React, { SVGProps } from "react";
+import Image from "next/image";
 
 export const Navbar = () => {
   return (
@@ -83,12 +84,12 @@ export const Navbar = () => {
             size="icon"
             className="overflow-hidden rounded-full"
           >
-            <img
-              src="/placeholder.svg"
+            <Image
               width={36}
               height={36}
               alt="Avatar"
               className="overflow-hidden rounded-full"
+              src={""}
             />
           </Button>
         </DropdownMenuTrigger>
