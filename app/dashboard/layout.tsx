@@ -18,7 +18,6 @@ export default function RootLayout({
         <UserNavbar />
         <UserSidebar />
         {children}
-        <Footer />
       </body>
     </html>
   );
