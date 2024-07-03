@@ -17,7 +17,12 @@ export const Home = () => {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl xl:text-5xl/none">
                 <TypeAnimation
-                  sequence={["ZPPSU Credentials", 500, "Request Automate", 500]}
+                  sequence={[
+                    "ZPPSU DOCUMENT REQUEST",
+                    500,
+                    "ZPPSU MANAGEMENT SYSTEM",
+                    500,
+                  ]}
                   wrapper="span"
                   speed={50}
                   className="block"

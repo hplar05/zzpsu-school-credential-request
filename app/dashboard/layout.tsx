@@ -3,8 +3,8 @@ import { Footer } from "@/components/Footer";
 import { UserSidebar } from "./_components/sideBar";
 
 export const metadata = {
-  title: "ZZPSU Requests Credentials",
-  description: "ZZPSU Requests Credentials",
+  title: "ZPPSU DOCUMENT REQUEST MANAGEMENT SYSTEM",
+  description: "ZPPSU DOCUMENT REQUEST MANAGEMENT SYSTEM",
 };
 
 export default function RootLayout({

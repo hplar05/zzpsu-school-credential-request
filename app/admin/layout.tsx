@@ -2,8 +2,8 @@ import { Navbar } from "./_components/Navbar";
 import { Sidebar } from "./_components/Sidebar";
 
 export const metadata = {
-  title: "Admin ZZPSU Requests Credentials",
-  description: "Admin ZZPSU Requests Credentials",
+  title: "Admin ZPPSU DOCUMENT REQUEST MANAGEMENT SYSTEM",
+  description: "Admin ZPPSU DOCUMENT REQUEST MANAGEMENT SYSTEM",
 };
 
 export default function RootLayout({
