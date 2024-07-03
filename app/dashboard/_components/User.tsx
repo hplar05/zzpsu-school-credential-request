@@ -5,7 +5,7 @@ export const User = () => {
   const { user } = useUser();
 
   return (
-    <div>
+    <div className="flex flex-col text-center">
       <h1 className="text-3xl font-bold">Hi, {user?.fullName}</h1>
       <h1 className="text-3xl font-semibold">
         Our Website is Under Construction 🚧
