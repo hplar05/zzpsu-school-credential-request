@@ -12,7 +12,7 @@ export const FloatingButton = () => {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <div className="fixed bottom-4 right-7">
-          <button className="bg-[#9c2121] hover:bg-[#f14646] text-xl text-white font-bold p-5 rounded-full shadow-lg">
+          <button className="bg-[#d73939] hover:bg-[#f14646] text-xl text-white font-bold p-5 rounded-full shadow-lg">
             📞
           </button>
         </div>

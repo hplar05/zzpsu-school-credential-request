@@ -6,8 +6,8 @@ import { ClerkProvider } from "@clerk/nextjs";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ZPPSU DOCUMENT REQUEST MANAGEMENT SYSTEM",
-  description: "ZPPSU DOCUMENT REQUEST MANAGEMENT SYSTEM",
+  title: "ZZPSU Document Request Management",
+  description: "ZZPSU Document Request Management",
 };
 
 export default function RootLayout({

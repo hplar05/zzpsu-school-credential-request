@@ -2,8 +2,8 @@ import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
 
 export const metadata = {
-  title: "ZPPSU DOCUMENT REQUEST MANAGEMENT SYSTEM",
-  description: "ZPPSU DOCUMENT REQUEST MANAGEMENT SYSTEM",
+  title: "ZZPSU Document Request Management",
+  description: "ZZPSU Document Request Management",
 };
 
 export default function RootLayout({

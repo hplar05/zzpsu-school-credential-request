@@ -16,72 +16,7 @@ export const Navbar = () => {
         <Image src={Logo} width="50" height="50" alt="Hero" className="" />
         <span className="sr-only">School Credentials Request</span>
       </Link>
-      <Sheet>
-        <SheetTrigger asChild>
-          <Button
-            size="icon"
-            variant="outline"
-            className="sm:hidden ml-[20rem]"
-          >
-            <MenuIcon className="h-5 w-5" />
-            <span className="sr-only">Toggle Menu</span>
-          </Button>
-        </SheetTrigger>
-        <SheetContent side="right" className="sm:max-w-xs">
-          <nav className="grid gap-6 text-lg font-medium">
-            <Link
-              href="/"
-              className="group flex h-10 w-10 shrink-0 items-center justify-center gap-2 rounded-full bg-primary text-lg font-semibold text-primary-foreground md:text-base"
-              prefetch={false}
-            >
-              <Image
-                className="transition-all group-hover:scale-110"
-                src={Logo}
-                alt={""}
-                height="100"
-                width="100"
-              />
-              <span className="sr-only">School Credentials</span>
-            </Link>
-            <Link
-              href="#"
-              className="flex items-center gap-4 px-2.5 text-foreground"
-              prefetch={false}
-            >
-              ZZPSU Credentials Request
-            </Link>
 
-            <Link
-              href="#home"
-              className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
-              prefetch={false}
-            >
-              Home
-            </Link>
-            <Link
-              href="#about"
-              className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
-              prefetch={false}
-            >
-              Benefits
-            </Link>
-            <Link
-              href="#steps"
-              className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
-              prefetch={false}
-            >
-              Steps
-            </Link>
-            <Link
-              href="#testimony"
-              className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
-              prefetch={false}
-            >
-              Testimonies
-            </Link>
-          </nav>
-        </SheetContent>
-      </Sheet>
       <nav className="ml-auto flex gap-3 text-gray-200 max-md:hidden">
         <Link
           href="#home"
@@ -113,6 +48,75 @@ export const Navbar = () => {
         </Link>
       </nav>
       <div className="ml-6 max-md:ml-0">
+        <Sheet>
+          <SheetTrigger asChild>
+            <Button size="icon" variant="outline" className="sm:hidden">
+              <MenuIcon className="h-5 w-5" />
+              <span className="sr-only">Toggle Menu</span>
+            </Button>
+          </SheetTrigger>
+          <SheetContent side="right" className="sm:max-w-xs">
+            <nav className="grid gap-6 text-lg font-medium">
+              <Link
+                href="/"
+                className="group flex h-10 w-10 shrink-0 items-center justify-center gap-2 rounded-full bg-primary text-lg font-semibold text-primary-foreground md:text-base"
+                prefetch={false}
+              >
+                <Image
+                  className="transition-all group-hover:scale-110"
+                  src={Logo}
+                  alt={""}
+                  height="100"
+                  width="100"
+                />
+                <span className="sr-only">School Credentials</span>
+              </Link>
+              <Link
+                href="#"
+                className="flex items-center gap-4 px-2.5 text-foreground"
+                prefetch={false}
+              >
+                ZZPSU Document Request Management
+              </Link>
+
+              <Link
+                href="#home"
+                className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
+                prefetch={false}
+              >
+                Home
+              </Link>
+              <Link
+                href="#about"
+                className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
+                prefetch={false}
+              >
+                Benefits
+              </Link>
+              <Link
+                href="#steps"
+                className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
+                prefetch={false}
+              >
+                Steps
+              </Link>
+              <Link
+                href="#testimony"
+                className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
+                prefetch={false}
+              >
+                Testimonies
+              </Link>
+              <Link
+                href="#testimony"
+                className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
+                prefetch={false}
+              >
+                Get Started
+              </Link>
+            </nav>
+          </SheetContent>
+        </Sheet>
         <Link
           href="/dashboard"
           className="inline-flex h-8 items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 max-md:hidden"
