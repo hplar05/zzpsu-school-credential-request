@@ -50,7 +50,7 @@ export const Navbar = () => {
       <div className="ml-6 max-md:ml-0">
         <Sheet>
           <SheetTrigger asChild>
-            <Button size="icon" variant="outline" className="sm:hidden">
+            <Button size="icon" variant="outline" className="md:hidden">
               <MenuIcon className="h-5 w-5" />
               <span className="sr-only">Toggle Menu</span>
             </Button>
@@ -108,7 +108,7 @@ export const Navbar = () => {
                 Testimonies
               </Link>
               <Link
-                href="#testimony"
+                href="/dashboard"
                 className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
                 prefetch={false}
               >
